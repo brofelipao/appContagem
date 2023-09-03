@@ -49,7 +49,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\inovisao.png" />
+	  <None Remove="Resources\Images\logo.png" />
+	  <None Remove="Resources\Images\logo_inovisao.xcf" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\EnviarFotos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Repository\" />
+	  <Folder Include="ViewModels\" />
 	</ItemGroup>
 
 </Project>

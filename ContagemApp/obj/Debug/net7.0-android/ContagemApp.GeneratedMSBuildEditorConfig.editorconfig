@@ -14,17 +14,23 @@ build_property.IncludeAllContentForSelfExtract =
 build_property.RootNamespace = ContagemApp
 build_property.ProjectDir = D:\csharp\apptcc\ContagemApp\
 
-[D:/csharp/apptcc/ContagemApp/App.xaml]
+[D:/csharp/apptcc/ContagemApp/Pages/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ContagemApp.App.xaml
-build_metadata.AdditionalFiles.TargetPath = App.xaml
-build_metadata.AdditionalFiles.RelativePath = App.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContagemApp.Pages.App.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\App.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\App.xaml
 
-[D:/csharp/apptcc/ContagemApp/MainPage.xaml]
+[D:/csharp/apptcc/ContagemApp/Pages/EnviarFotos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ContagemApp.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContagemApp.Pages.EnviarFotos.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EnviarFotos.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EnviarFotos.xaml
+
+[D:/csharp/apptcc/ContagemApp/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContagemApp.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
 
 [D:/csharp/apptcc/ContagemApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

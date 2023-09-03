@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContagemApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="40"
+            Padding="30,0"
+            VerticalOptions="Center">
+        
+            <Label
+                Text="Bem-vindo!"
+                FontSize="28"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"/>
+
+            <Label
+                Text="Contagem de Larvas"
+                FontSize="28"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                HorizontalTextAlignment="Center"/>
+
+            <Image
+                Source="logo.png"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="selecionarImagens"
+                Text="Selecionar Imagens"
+                TextColor="Black"
+                FontSize="24"
+                Clicked="enviarFotosClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="End"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
