@@ -45,7 +45,8 @@
                 <ListView x:Name="listViewImages"
                           BackgroundColor="Transparent"
                           SeparatorVisibility="None"
-                          HeightRequest="260">
+                          HeightRequest="260"
+                          ItemsSource="{Binding FilesListView}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding}" TextColor="White"></TextCell>
@@ -59,6 +60,7 @@
                     WidthRequest="300"
                     FontSize="24"
                     TextColor="Black"
+                    Command="{Binding enviaParaApiCommand}"
                     SemanticProperties.Hint="Enviar para obter a quantidade de larvas por imagem."
                     HorizontalOptions="Center" />
 

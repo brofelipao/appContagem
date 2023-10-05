@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContagemApp.Pages.Resultados"
+             Title="Resultados">
+    <VerticalStackLayout>
+        <Label 
+            Text="Resultados"
+            FontSize="32"
+            WidthRequest="300"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center" />
+
+        <CarouselView ItemsSource="{Binding Images}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="10"
+                           Margin="10"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand">
+                        <StackLayout>
+                            <Image Source="{Binding path}"
+                                   Aspect="AspectFit"
+                                   HeightRequest="400"
+                                   WidthRequest="400"></Image>
+                            <Label Text="{Binding countString}"
+                                   FontSize="Medium"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center"></Label>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -55,6 +55,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Acr.UserDialogs" Version="8.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
@@ -62,11 +63,13 @@
 	  <MauiXaml Update="Pages\EnviarFotos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Resultados.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Repository\" />
-	  <Folder Include="ViewModels\" />
 	</ItemGroup>
 
 </Project>

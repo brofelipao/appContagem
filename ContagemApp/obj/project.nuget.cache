@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lsCNwwcqRiuXT5ImPZ9brAdo1NSUxO4So/hGvBrUEJzfy9azLCDssCZMOTrUk3goi2khLIjxCCXuQElcCd2V0A==",
+  "dgSpecHash": "qcabc8BXnYlfJ2tWKXandYDzc6kXeJIE9XfTRkl0JvCpNAZfT2sXjUxxeac1DCahLoweHMkLQ7cnxh5fCDb/5A==",
   "success": true,
   "projectFilePath": "D:\\csharp\\apptcc\\ContagemApp\\ContagemApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Luiz\\.nuget\\packages\\acr.userdialogs\\8.0.1\\acr.userdialogs.8.0.1.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\andhud\\1.5.0\\andhud.1.5.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\btprogresshud\\1.5.0\\btprogresshud.1.5.0.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -19,6 +22,7 @@
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.86\\microsoft.maui.graphics.win2d.winui.desktop.7.0.86.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
